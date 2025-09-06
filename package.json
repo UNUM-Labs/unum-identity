@@ -1,25 +1,23 @@
 {
   "name": "unum-identity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend de UNUM",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UNUM-Labs/unum-identity.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Franco Garcia",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/UNUM-Labs/unum-identity/issues"
-  },
-  "homepage": "https://github.com/UNUM-Labs/unum-identity#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^4.18.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
